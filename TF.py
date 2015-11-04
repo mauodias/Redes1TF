@@ -65,3 +65,6 @@ class Router:
     def add_interface(self, mac, ip, mask):
         self.mac = mac
         self.ip = (ip, mask)
+
+    def foo(self):
+    	pass
